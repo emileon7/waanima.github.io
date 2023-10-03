@@ -1,0 +1,22 @@
+.nav-link:hover {
+    border-bottom: 2px solid red;
+    text-decoration: none;
+}
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul.navbar-nav {
+    margin-left: 20%;  /* Ajusta este valor según lo que necesites */
+}
+a.logo {
+    position: relative;
+    top: 10px;  /* Mueve el logo 10px hacia abajo */
+    left: 300px;  /* Mueve el logo 10px a la derecha */
+}
+#carouselExampleCaptions .carousel-item img {
+    max-height: 800px;
+    max-width: 100%;
+    
+}
+

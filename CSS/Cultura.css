@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title h1{
+ font-family: "Cocogoose Pro";
+ font-size: 55px;
+ text-align: center;
+ color: #00bc2fde;
+}
+
+.title{
+    background-color: white;
+    margin: 0 200px;
+    font-family: "Cocogoose Pro";
+}
+.etnia p{
+    margin-top: 50px;
+    text-align: center;
+}
+
+

@@ -1,0 +1,73 @@
+   body{
+        background-image: url(zoquesito.jpg);
+        background-size: cover;
+
+    }
+* {
+    box-sizing: border-box;
+    font-family: "Cocogoose Pro";
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  #puzzle {
+    background-color: #ff9898;
+    border: 2px solid #db3f3f;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  #puzzle .part {
+    font-size: 28px;
+    margin: 0 10px;
+  }
+  #puzzle input {
+    border: 2px solid #ddd;
+    font-size: 28px;
+    margin: 0 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+  }
+  #submit-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  #submit-btn:hover {
+    background-color: #3e8e41;
+  }
+  #result {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  #options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .option {
+    background-color: #f13d3d;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .option:hover {
+    background-color: #ccc;
+  }

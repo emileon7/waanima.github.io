@@ -1,0 +1,56 @@
+.login-form{
+    margin:auto;
+    padding: 2%;
+    font-family: "FuturaHandwritten";
+    position: relative;
+    background-color: #FF3131 ;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+}
+
+.username label{
+  color: white;
+  font-size: 18px;
+}
+.username input{
+    outline: 0;
+    width: 80%;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.message a{
+color: #FFDE59;
+}
+.message {
+    color: white;;
+    }
+
+.button{
+    width: 100%;
+    padding: 15px;
+    font-family: "FuturaHandwritten";
+    font-size: 20px;
+    color: black; 
+    background-color: #FFDE59; 
+    border-radius: 20px; 
+    width: 50%; 
+    text-align: center;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    border-color: #FFDE59;
+}
+
+
+
+

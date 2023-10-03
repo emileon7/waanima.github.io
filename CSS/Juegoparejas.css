@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'FuturaHandwritten';
+    
+    
+}
+
+#centerZone {
+    position: relative;
+    width: 250px; /* Ancho ajustado para coincidir con el de las imágenes */
+    height: 200px;
+    margin-top: 500px;
+    left:0;
+    overflow: hidden;
+    z-index: 2; /* Asegurarte de que las imágenes estén encima de las palabras */
+    
+}
+
+img {
+    
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 80px;
+    
+    
+}
+
+#wordZone {
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1; /* Las palabras estarán detrás de las imágenes */
+    
+   
+}
+
+.word {
+    position: absolute;
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    
+}
+#wordZone > div {
+    display: inline-block;
+    width: 150px; /* Ajusta según tu preferencia */
+    height: 150px; /* Ajusta según tu preferencia */
+    line-height: 150px; /* Debe coincidir con la altura para centrar verticalmente el texto */
+    text-align: center; /* Para centrar horizontalmente el texto */
+    border-radius: 50%; /* Esto hace que tenga forma de círculo */
+    position: absolute; /* Para posicionar las palabras según las coordenadas que especificamos en JavaScript */
+    overflow: hidden; /* En caso de que haya texto adicional, se ocultará */
+    border: 1px solid rgb(243, 12, 12); /* Puedes quitarlo si no quieres un borde */
+    background-color: #FF3131; /* Color de fondo, ajusta según prefieras */
+}
+
