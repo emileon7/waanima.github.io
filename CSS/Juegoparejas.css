@@ -1,7 +1,16 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'FuturaHandwritten';
-    
+    background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'FuturaHandwritten';
     
 }
 
@@ -9,8 +18,7 @@ body{
     position: relative;
     width: 250px; /* Ancho ajustado para coincidir con el de las imágenes */
     height: 200px;
-    margin-top: 400px;
-    left:45%;
+    
     overflow: hidden;
     z-index: 2; /* Asegurarte de que las imágenes estén encima de las palabras */
     
