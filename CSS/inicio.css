@@ -12,11 +12,20 @@ ul.navbar-nav {
 a.logo {
     position: relative;
     top: 10px;  /* Mueve el logo 10px hacia abajo */
-    left: 300px;  /* Mueve el logo 10px a la derecha */
+    left: 200px;  /* Mueve el logo 10px a la derecha */
 }
 #carouselExampleCaptions .carousel-item img {
     max-height: 800px;
     max-width: 100%;
     
 }
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 250px; /* Tamaño del logo para pantallas grandes */
+        height: 250px; /* Altura del logo para pantallas grandes */
+    }
+}
+
 
