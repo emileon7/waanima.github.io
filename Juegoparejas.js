@@ -1,11 +1,9 @@
 document.addEventListener("DOMContentLoaded", function()  {setupGame();
 // Obtén una referencia al elemento de audio
-var miAudio = document.getElementById('soundmagic');
-var miAudio = document.getElementById('sounderror');
+
 // Agrega un controlador de eventos al botón
 
-    let restartButton = document.getElementById('restartGame');
-    restartButton.addEventListener('click', setupGame);
+    
 });
 function setupGame() {
     let centerZone = document.getElementById('centerZone');
@@ -81,6 +79,7 @@ function checkGameCompletion() {
     // Si no quedan imágenes ni palabras en los contenedores, entonces el juego ha terminado
     if (!centerZone.hasChildNodes() && !wordZone.hasChildNodes()) {
         // Muestra el mensaje de felicitaciones
+        felicidades.play();
         var mensajeFelicidades = document.getElementById('mensaje-felicidades');
         mensajeFelicidades.style.display = 'block';
 

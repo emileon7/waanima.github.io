@@ -28,7 +28,7 @@ navbar.innerHTML=  `
       </a>
       <ul class="dropdown-menu">
         <li><a class="dropdown-item" href="memorama.html">Memorama maya</a></li>
-        <li><a class="dropdown-item" href="Juegoparejas.html">Practica los números</a></li>
+        <li><a class="dropdown-item" href="JuegoParejas.html">Practica los números</a></li>
       </ul>
     </li>
       
@@ -38,7 +38,7 @@ navbar.innerHTML=  `
           Cultura
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="breakfast.html">Maya K'iche'</a></li>
+          <li><a class="dropdown-item" href="culturakiche.html">Maya K'iche'</a></li>
 
 
 
@@ -46,7 +46,7 @@ navbar.innerHTML=  `
       </li>
 
       <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="index.html" style="color:#FF3131">Acerca de</a>
+      <a class="nav-link active" aria-current="page" href="Acercade.html" style="color:#FF3131">Acerca de</a>
     </li>
 
 
@@ -56,6 +56,9 @@ navbar.innerHTML=  `
   </div>
 </div>
 </nav>`;
+
+
+
 /*
 <nav id="navbar" class="navbar navbar-expand-lg" style="font-family:Cocogoose Pro; background-color: rgba(255, 255, 255, 0.88);  font-size:20px;">
 <a class="logo"  href="index.html">

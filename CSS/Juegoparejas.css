@@ -9,8 +9,8 @@ body{
     position: relative;
     width: 250px; /* Ancho ajustado para coincidir con el de las imágenes */
     height: 200px;
-    margin-top: 500px;
-    left:0;
+    margin-top: 400px;
+    left:45%;
     overflow: hidden;
     z-index: 2; /* Asegurarte de que las imágenes estén encima de las palabras */
     
@@ -55,7 +55,7 @@ img {
     border-radius: 50%; /* Esto hace que tenga forma de círculo */
     position: absolute; /* Para posicionar las palabras según las coordenadas que especificamos en JavaScript */
     overflow: hidden; /* En caso de que haya texto adicional, se ocultará */
-    border: 1px solid rgb(243, 12, 12); /* Puedes quitarlo si no quieres un borde */
-    background-color: #FF3131; /* Color de fondo, ajusta según prefieras */
+    
+    background-color: #ff6831; /* Color de fondo, ajusta según prefieras */
 }
 
